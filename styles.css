@@ -1,0 +1,81 @@
+body{
+    width: 80%;
+    margin:20px auto;
+    background-color: azure;
+    box-shadow: 1px 1px 100px 10px antiquewhite;
+    padding: 10px;
+}
+#pages{
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: azure;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even){
+    border: none;
+    background-color: rgb(242, 245, 247);
+}
+
+.deprecated{
+    color:red;
+}
+
+#pages ~ *{
+    clear: both;
+}
+
+#pages a{
+    font-size: 20px;
+}
+
+#prev{
+    float: left;
+    margin-bottom: 10px;
+}
+
+#next{
+    float: right;
+    margin-bottom: 10px;
+}
+
+#prev :hover, #next :hover{
+text-decoration: underline;
+color: yellowgreen;
+}
+h1{
+    color: brown;
+}
+
+h2{
+    color: #ff922b;
+}
+#terminology h3, h3{
+ color: chocolate;
+}
+
+#webworking{
+    display: flex;
+    margin: 0 auto;
+    height: 200px;
+}
+
+/*
+<p>Elements can categorised into different types:</p>
+      <ul>
+        <li>structure</li>
+        <li>semantic</li>
+        <li>form</li>
+        <li>multimedia</li>
+        <li>list</li>
+        <li>table</li>
+        <li>links and navigation</li>
+        <li>meta</li>
+      </ul>
+*/

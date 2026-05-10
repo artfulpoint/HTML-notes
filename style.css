@@ -1,0 +1,119 @@
+body{
+    width:80%;
+    margin: 10px auto;
+    color: #1864ab;
+    line-height: 20px;
+}
+
+/*  header */ 
+
+header{
+    background-color: #ffa94d;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+
+}
+
+header a:link, header a:visited, footer a:link, footer a:visited{
+    color: #1971c2;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header a:hover, header a:active, footer a:hover, footer a:active{
+    color: #74c0fc;
+}
+
+
+/*  main   */
+
+main{
+    padding: 20px 0;
+    /* line-height: 32px; */
+
+}
+
+main section{
+margin: 10px;;
+}
+
+h1{
+    color:#1971c2;
+    text-align: center;
+}
+
+
+h3{
+    color: #4dabf7;
+}
+
+table{
+    background: aliceblue;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #ffc078;
+    line-height: 48px;
+    text-align: center;
+}
+th:first-child{
+    width: 25%;
+}
+
+th:nth-child(even),td:nth-child(even){
+    text-align: left;
+}
+
+tbody tr{
+    line-height: 48px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ffe8cc;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #fff4e6;
+}
+
+tbody a{
+    color: #1c7ed6;
+}
+
+li{
+    line-height: 24px;
+}
+
+.table-heading-box{
+    cursor: pointer;
+}
+
+.table-heading{
+    display: inline-block;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    vertical-align: text-top;
+}
+
+.show{
+    display: none;
+}
+
+.no-show{
+    display: table;
+}
+
+.deprecated{
+    color: red;
+}
