@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Head</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <span id="prev"><a href="elements.html">prev</a></span>
+    </header>
+    <main>
+      <h3>&lt;head&gt;</h3>
+      <ul>
+        <h5>Syntax :</h5>
+        &lt;html&gt;<br />
+        &lt;head&gt;<br />
+        ...
+        <br />&lt;/head&gt;
+        <br />&lt;/html&gt;
+        <li>It is a metadata container</li>
+        <li>stores information about the webpage</li>
+        <li>not visible on the webpage</li>
+        <li>a container(paired) tag</li>
+        <li>neither block-level nor inline</li>
+        <li>Comes before &lt;body&gt;</li>
+        <li>appears only once on a webpage</li>
+        <li>can only contain metadata elements</li>
+        <li>
+          order of metadata elements matters, recommended order is:
+          <ol>
+            <li>character set</li>
+            <li>compatibility/viewport</li>
+            <li>title</li>
+            <li>description/SEO meta tags</li>
+            <li>CSS/stylesheets</li>
+            <li>preload/preconnect links</li>
+            <li>scripts</li>
+          </ol>
+        </li>
+        <li>visible elements don't come in &lt;head&gt; , they belong in &lt;body&gt;</li>
+        <li>prepares & configures the resources for a webpage</li>
+      </ul>
+
+      <h4>List of elements allowed:</h4>
+      <ul>
+        <li>&lt;title&gt;</li>
+        <li>&lt;meta&gt;</li>
+        <li>&lt;link&gt;</li>
+        <li>&lt;style&gt;</li>
+        <li>&lt;script&gt;</li>
+        <li>&lt;base&gt;</li>
+        <li>&lt;noscript&gt;</li>
+      </ul>
+      <h4>List of attributes allowed(global):</h4>
+      <ul>
+        <li>id</li>
+        <li>class</li>
+        <li>style</li>
+      </ul>
+      <h4>Behind the scenes</h4>
+      <ul>
+        <li>
+          Browser reads &lt;head&gt; first to:
+          <ul>
+            <li>load CSS</li>
+            <li>load scripts</li>
+            <li>set page title</li>
+            <li>understand encoding</li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
