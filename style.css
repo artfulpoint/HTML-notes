@@ -42,11 +42,9 @@ main{
     table{
         font-size: 8px;
     }
-     th input{
-    width:16px;
-}
-    h1{
-           line-height:24px;
+
+    th input{
+        width: 32px;
     }
 }
 
@@ -57,7 +55,6 @@ margin: 10px;;
 h1{
     color:#1971c2;
     text-align: center;
- 
 }
 
 
@@ -114,8 +111,6 @@ li{
 .table-heading{
     display: inline-block;
 }
-
-
 
 .arrow{
     width: 20px;
